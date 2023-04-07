@@ -9,23 +9,20 @@
 
 @interface HomeMoudleViewController ()
 
+@property (nonatomic, strong) UILabel *conetntLabel;
+
 @end
 
 @implementation HomeMoudleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    _conetntLabel = [[UILabel alloc] init];
+    _conetntLabel.text = [NSString stringWithFormat:@"Home Module with pramas:%@",self.homeMoudleTitle];
+    _conetntLabel.font = [UIFont boldSystemFontOfSize:20];
+    _conetntLabel.textColor = [UIColor blackColor];
+    _conetntLabel.frame = CGRectMake(100, 200, 200, 50);
+    [self.view addSubview:_conetntLabel];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

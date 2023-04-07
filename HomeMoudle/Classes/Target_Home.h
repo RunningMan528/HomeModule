@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_Home : NSObject
 
+- (UIViewController *)Action_viewController:(NSDictionary *)params;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

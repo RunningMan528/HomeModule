@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (Home)
 
+- (UIViewController *)Home_ViewControllerWithUserId:(NSString *)userId callback:(void(^)(NSString *result))callback;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -9,4 +9,11 @@
 
 @implementation CTMediator (Home)
 
+- (UIViewController *)Home_ViewControllerWithUserId:(NSString *)userId callback:(void(^)(NSString *result))callback{
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    params[@"callback"] = callback;
+    params[@"userId"] = userId;
+    return [self performTarget:@"Home" action:@"viewController" params:params shouldCacheTarget:NO];
+}
+
 @end
