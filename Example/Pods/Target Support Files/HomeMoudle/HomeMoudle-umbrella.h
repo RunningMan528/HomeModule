@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "CTMediator+Home.h"
+#import "HomeMoudleViewController.h"
+#import "Target_Home.h"
 
 FOUNDATION_EXPORT double HomeMoudleVersionNumber;
 FOUNDATION_EXPORT const unsigned char HomeMoudleVersionString[];

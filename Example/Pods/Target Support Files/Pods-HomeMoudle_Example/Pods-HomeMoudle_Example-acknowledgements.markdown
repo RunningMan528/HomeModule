@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## HomeMoudle
 
 Copyright (c) 2023 peixu528@163.com <peixu@weli.cn>

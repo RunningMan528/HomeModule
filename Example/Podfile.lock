@@ -1,10 +1,12 @@
 PODS:
+  - CTMediator (46)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HomeMoudle (0.1.0)
+  - HomeMoudle (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,6 +14,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - CTMediator
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,8 +22,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HomeMoudle: 9ecf90d80524a0d797d968530d9f7aad97665cf5
+  HomeMoudle: 588673b01d1d2534f0134dcff316af0dbcd8ec52
 
 PODFILE CHECKSUM: 583ec1e780d1168f13a699d13d0dc7b0c465b6aa
 
