@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HomeMoudle (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HomeMoudle (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HomeMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HomeMoudle: 9ecf90d80524a0d797d968530d9f7aad97665cf5
+
+PODFILE CHECKSUM: 583ec1e780d1168f13a699d13d0dc7b0c465b6aa
+
+COCOAPODS: 1.11.3
