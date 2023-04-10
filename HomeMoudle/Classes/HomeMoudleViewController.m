@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     _conetntLabel = [[UILabel alloc] init];
     _conetntLabel.text = [NSString stringWithFormat:@"Home Module with pramas:%@",self.homeMoudleTitle];
     _conetntLabel.font = [UIFont boldSystemFontOfSize:20];

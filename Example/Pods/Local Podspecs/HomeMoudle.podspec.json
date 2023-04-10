@@ -1,9 +1,9 @@
 {
   "name": "HomeMoudle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of HomeMoudle.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/peixu528@163.com/HomeMoudle",
+  "homepage": "https://github.com/RunningMan528/HomeModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "peixu528@163.com": "peixu@weli.cn"
   },
   "source": {
-    "git": "https://github.com/peixu528@163.com/HomeMoudle.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/RunningMan528/HomeModule.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
